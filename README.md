@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Attack Capital Frontend
+This is the frontend of the Attack Capital application, built using TypeScript and Tailwind CSS for styling.
 
-## Getting Started
+## Prerequisites
+Before running the frontend, make sure you have the following installed:
 
-First, run the development server:
+* Node.js: LTS version or higher
+* Git: For version control and cloning repositories
+## Installation
+
+1. Clone the Repository
+```bash
+git clone https://github.com/Abhay17pawar/attackcapital_frontend.git
+
+```
+2. Install Dependencies
+```bash
+cd frontend
+npm install
+
+```
+3. 4. Set up TypeScript (if not done already)
+```bash
+npx tsc --init
+```
+
+4. Run the Project
+
+Once the dependencies are installed and environment variables are set, you can start the backend server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+## Contributing
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contributions are always welcome!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+See `contributing.md` for ways to get started.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Please adhere to this project's `code of conduct`.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is licensed under the MIT License - see the [MIT](https://choosealicense.com/licenses/mit/) file for details
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
